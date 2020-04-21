@@ -1,4 +1,4 @@
-def new_function():
+def simple_interest():
     #principal, rate, time
     principal = int(input("Enter amount: "))
 
@@ -41,13 +41,13 @@ while 1:
     print("")
     if selection is 1:
         print("calculating simple interest: ")
-        print ( new_function())
+        print ( simple_interest()) + print ("this is the simple interest: ")
     elif selection is 2:
         print ("calculating accelaration: ")
         print (acceleration())
     elif selection is 3:
         print("calculating the volume of cylinder: ")
-        print ( volume())    
+        print ( volume()) + print("this is the volume")  
 
 
 
